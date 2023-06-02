@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            margin-bottom: -8px;
+
+        }
+
+        nav{
+            background-color: rgb(95, 92, 92);
+            box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.507);
+
+        }
+
+        nav > a{
+            padding-right: 30px;
+            color: white;
+            text-decoration: none;
+            padding-left: 4px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        h1{
+            box-shadow: inset 1px 1px 18px 4px rgba(0, 0, 0, 0.534);
+            text-align: center;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 1px 1px 6px 5px rgba(0, 0, 0, 0.452);
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 4px;
+            border-radius: 20px 0px;
+        }
+
+        article > aside{
+            background-color: rgb(134, 130, 130);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin-left: -8px;
+            margin-right: -8px;
+        }
+
+        footer > p{
+            margin: -1px;
+        }
+
+        div#bola{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre Angola</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis nostrum illo, repudiandae vero maxime vitae quam itaque magnam rem! Modi quo nobis officiis cumque adipisci debitis culpa velit explicabo excepturi?</p>
+            <aside>
+                <p>Artigo desenvolvido por Felismino Chico.</p>
+            </aside>
+        </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Felismino Chico.</p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>

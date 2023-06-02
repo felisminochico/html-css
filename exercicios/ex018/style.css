@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(178, 241, 178);
+    font: normal normal 16px Arial, Helvetica, Verdana, sans-serif;
+}
+
+h1{
+    color: rgb(20, 46, 20);
+}
+
+#principal{
+    background-color: rgb(20, 46, 20);
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: rgb(42, 138, 42);
+}
+
+.basico{
+    color: rgb(168, 151, 56);
+}
+
+.intermediario{
+    color: rgb(46, 46, 150);
+}
+
+.avancado {
+    color: rgb(151, 42, 42);
+}
+
+.destaque{
+    background-color: rgba(102, 102, 28, 0.63);
+}
