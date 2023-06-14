@@ -14,6 +14,22 @@
             border-collapse: collapse;
         }
 
+        table > tbody > tr:nth-child(2n){
+            background-color: lightgray;
+            
+        }
+
+        table > tbody > tr:nth-child(odd){
+            background-color: yellow;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            background-color: lightgray;
+            padding: 10px;
+        }
+
         thead, tfoot{
             background-color: gray;
             color: white;
@@ -34,121 +50,122 @@
 
     <table>
         
+        <caption>População de Angola</caption>
 
         <tbody>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Suíça</td>
+                <td class="numero">14 328 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Inglaterra</td>
+                <td class="numero">22 328 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Espanha</td>
+                <td class="numero">13 328 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Congo</td>
+                <td class="numero">12 328 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Mali</td>
+                <td class="numero">14 528 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Madagáscar</td>
+                <td class="numero">42 328 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Canadá</td>
+                <td class="numero">52 328 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Somália</td>
+                <td class="numero">51 328 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Portugal</td>
+                <td class="numero">55 328 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Uíge</td>
+                <td class="numero">56 328 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Luanda</td>
+                <td class="numero">57 328 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Huíla</td>
+                <td class="numero">56 228 574</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Cunene</td>
+                <td class="numero">61 368 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Kwanza Norte</td>
+                <td class="numero">15 326 344</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Cabinda</td>
+                <td class="numero">84 348 524</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Kuanza Sul</td>
+                <td class="numero">24 328 564</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Kuando Kubango</td>
+                <td class="numero">18 523 545</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Moxico</td>
+                <td class="numero">34 428 343</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Bengo</td>
+                <td class="numero">24 328 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Zaire</td>
+                <td class="numero">52 328 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Benguela</td>
+                <td class="numero">13 328 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Namibe</td>
+                <td class="numero">52 428 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Estados Unidos</td>
+                <td class="numero"  style="width: 100px;">45 328 544</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Brasil</td>
+                <td class="numero">14 228 534</td>
             </tr>
             <tr>
-                <td>Angola</td>
-                <td class="numero">54 328 544</td>
+                <td>Argentina</td>
+                <td class="numero">14 338 544</td>
             </tr> 
         </tbody>
 
         <tfoot>
                <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="numero"><strong>210 544 678</strong></td>
                </tr>
         </tfoot>
 
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
     </table>
