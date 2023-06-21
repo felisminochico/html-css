@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando conteúdos</title>
+    <style>
+        div{
+            position: relative;
+            background-color: gray;
+            height: 400px;
+            margin: auto;
+        }
+
+        div > iframe{
+            position: absolute;
+            left: 3%;
+            top: 3%;
+            width: 90%;
+            height: 90%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conteúdos dentro de iframes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis cum nulla eligendi impedit unde praesentium, error aut dolorem commodi? Nihil laudantium ipsum sunt et. Cupiditate quas voluptatibus quidem asperiores alias!</p>
+
+    <h2>Video do Youtube</h2>
+    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/wvFZNA7xlM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+    <h2>Mapas do Google</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943977.7683062884!2d7.531891387500016!3d-15.128616900000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ba3de8be29805e1%3A0xd25a11db2d1dbbf7!2sInstituto%20M%C3%A9dio%20Polit%C3%A9cnico!5e0!3m2!1spt-PT!2sao!4v1687355102939!5m2!1spt-PT!2sao" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h2>Mapas do Waze</h2>
+    <iframe src="https://embed.waze.com/iframe?zoom=16&lat=-15.128617&lon=12.146149&ct=livemap" width="600" height="450" allowfullscreen></iframe>
+
+    <h2>Google Documents</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT8r93h29K_wk4U4CsrPJ98WwpyI5d2orXws-hZ0L0-W6q-OZoDsmOJ4lV5aonMJVjDU6CP4H1jxq6G/embed?start=true&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</body>
+</html>
