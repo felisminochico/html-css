@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+
+    <form method="get" action="cadastro.php">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="est" id="iest">
+                <optgroup label="Região do Norte">
+                    <option value="LD">Luanda</option>
+                    <option value="CD">Cabinda</option>
+                    <option value="ZR">Zaire</option>
+                    <option value="BG">Bengo</option>
+                </optgroup>
+
+                <optgroup label="Região do Sul">
+                    <option value="NB" selected>Namibe</option>
+                    <option value="TB">Cunene</option>
+                    <option value="MC">Moxico</option>
+                    <option value="BG">Benguela</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="ilista">
+            <datalist name="lista" id="ilista">
+                <option>Administrador</option>
+                <option>Desenvolvedor</option>
+                <option>Vendedor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Deixe a sua mensagem..."></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
