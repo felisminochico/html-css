@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+
+    <h2>Calculando Idade no Formulário</h2>
+
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iatual">Ano Atual: </label>
+            <output name="ataul" id="iatual">2023</output>
+        </p>
+
+        <p>
+            <label for="inasc">Ano de Nascimento: </label>
+            <input type="number" name="nasc" id="inasc" required min="1900" max="2023" oninput="iidade.innerHTML = 2023 - Number(inasc.value)">
+        </p>
+        
+        <p>
+            <label id="iidade">Sua idade é: </label>
+            <output name="idade" id="iidade">0</output>
+        </p>
+    </form>
+</body>
+</html>
