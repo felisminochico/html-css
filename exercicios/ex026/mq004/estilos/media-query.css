@@ -14,6 +14,30 @@ Telas grandes: de 1200px pra diante
 
 @media print{/* Impressoras */
 
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body{
+        background-color: blue;
+    }
+
+    img#print{
+        display: block;
+    }
+
+    img#phone, img#tablet, img#pc, img#tv{
+        display: none;
+    }
+
+    main{
+        border: 2px solid black;
+    }
+
+    main > h1{
+        color: black;
+        text-shadow: none;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){/* Tablets */
@@ -32,7 +56,7 @@ Telas grandes: de 1200px pra diante
 
 @media screen and (min-width: 992px) and (max-width: 1200px){/* Computadores */
     body{
-        background-image: url(../imagens/icon-pc.png);
+        background-image: url(../imagens/back-pc.jpg);
     }
 
     img#pc{
