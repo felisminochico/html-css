@@ -32,6 +32,12 @@ Telas grandes: de 1200px pra diante
 
     main{
         border: 2px solid black;
+        min-width: 90vw;
+    }
+
+    main::after{
+        font-size: 22px;
+        content: 'Este site foi impresso através do site https://felisminochico.github.io/ssl';
     }
 
     main > h1{
